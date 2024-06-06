@@ -337,15 +337,15 @@ a.inline-link:hover {
 }
 
 .featured-project{
-    background-image: url('../img/web-1.png');
-    background-size: 50% 100%;
+    background-image: url('../img/web-1-color.png');
+    background-size: 50% auto;
     background-repeat: no-repeat;
     height: 350px;
 }
 
-.featured-project:hover{
+/* .featured-project:hover{
     background-image: url('../img/web-1-color.png');
-}
+} */
 
 
 
@@ -357,16 +357,16 @@ a.inline-link:hover {
 }
 
 .featured-project-1{
-    background-image: url('../img/web-3.png');
-    background-size: 50% 100%;
+    background-image: url('../img/web-3-color.png');
+    background-size: 50% auto;
     background-position: center right;
     background-repeat: no-repeat;
     height: 350px;
 }
 
-.featured-project-1:hover{
+/* .featured-project-1:hover{
     background-image: url('../img/web-3-color.png');
-}
+} */
 
 .featured-project-1-title{
     font-size: 25px;
@@ -393,16 +393,16 @@ a.inline-link:hover {
 }
 
 .featured-project-2{
-    background-image: url('../img/web-2.png');
-    background-size: 50% 100%;
+    background-image: url('../img/web-2-color.png');
+    background-size: 50% auto;
     /* background-position: center right; */
     background-repeat: no-repeat;
     height: 350px;
 }
 
-.featured-project-2:hover{
+/* .featured-project-2:hover{
     background-image: url('../img/web-2-color.png');
-}
+} */
 
 .featured-project-2-title{
     font-size: 25px;
@@ -504,3 +504,73 @@ a.inline-link:hover {
         padding-left: 0.5rem;
     }
 }
+
+
+
+
+
+/* ############################# */
+/* 4th project */
+
+.featured-project-4-tech-list svg{
+    width: 4px;
+}
+
+.featured-project-4{
+    background-image: url('../img/fundle.png');
+    background-size: 50% auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+/* .featured-project-4:hover{
+    background-image: url('../img/fundle-color.png');
+} */
+
+.featured-project-4-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+.featured-project-4-card{
+    width: 60%;
+    background-color: #112240;
+}
+
+/* ############################# */
+/* ./th project */
+/* ########################### */
+
+/* ############################# */
+/* second project */
+
+.featured-project-5-tech-list svg{
+    width: 4px;
+}
+
+.featured-project-5{
+    background-image: url('../img/mocapital.png');
+    background-size: 50% auto;
+    background-position: center left;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+/* .featured-project-5:hover{
+    background-image: url('../img/mocapital-color.png');
+} */
+
+.featured-project-5-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+.featured-project-5-card{
+    width: 60%;
+    background-color: #112240;
+}
+
+/* ############################# */
+/* ./second project */
+/* ########################### */
