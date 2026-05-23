@@ -1,11 +1,8 @@
 [build]
   command = "npm run build"
-  publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "18"
+# Don't specify publish directory here - set it in UI instead
 
-# Handle client-side routing (SPA)
 [[redirects]]
   from = "/*"
   to = "/index.html"
