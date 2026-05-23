@@ -1,5 +1,3 @@
-# Create .gitignore file
-cat > .gitignore << 'EOF'
 # Dependencies
 node_modules/
 /.pnp
@@ -39,4 +37,3 @@ yarn-error.log*
 
 # Optional
 .sass-cache
-EOF
